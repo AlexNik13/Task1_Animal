@@ -1,4 +1,4 @@
-public class Animals {
+ public class Animals {
     String tip;
     String name;
     int distanceRun;
@@ -19,7 +19,7 @@ public class Animals {
         this.weight = weight;
     }
 
-    void run(int distance){
+     void run(int distance){
         if(distance > distanceRun){
             System.out.println(name + " пробежал(а) " + distanceRun + " м. и устал(а). Осталось пробежать " +
                     (distance - distanceRun) + " м." );
