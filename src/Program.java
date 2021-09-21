@@ -25,12 +25,16 @@ public class Program {
 
 
         menu Menu = new menu();
-        Menu.showAllAnimals(listAnimal);
+
+        Menu.firstMenu(listAnimal);
+
+
+        /*Menu.showAllAnimals(listAnimal);
         Menu.eatAllCat(listAnimal, listPlate);
         Menu.showAllCat(listAnimal);
         listPlate[5].addEat(15);
         listPlate[5].eat(listAnimal[7]);
-        Menu.showAllCat(listAnimal);
+        Menu.showAllCat(listAnimal);*/
 
 
 
